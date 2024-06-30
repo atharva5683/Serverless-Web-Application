@@ -186,4 +186,4 @@ Note: Replace  "<Region>" with the actual Region you selected at the beginning o
 + If you select the link for "master", you'll see the build and deployment details related to your branch.
 
 <img width="1360" alt="amplify-deploy-status" src="https://github.com/atharva5683/Serverless-Web-Application/assets/160429511/6604e8fe-c212-4840-8ecb-bf2675575617">
-![wildrydes-homepage](https://github.com/atharva5683/Serverless-Web-Application/assets/160429511/e93d5273-8d51-4e3f-8a6d-b4cfc37e43ea)
+![wildrydes-homepage](https://github.com/atharva5683/Serverless-Web-Application/assets/160429511/5240adac-177c-4093-9c18-0a1a82ffaef7)
