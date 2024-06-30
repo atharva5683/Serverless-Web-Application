@@ -146,3 +146,44 @@ To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
 ```
 Note: Replace  "<Region>" with the actual Region you selected at the beginning of this tutorial.
 
+# Enable Web Hosting with Aws Amplify Console
+
+### Step 1: Launch the AWS Amplify Console
+
++ Go to the AWS Amplify Console and click on "Get Started".
+
+### Step 2: Choose Amplify Hosting
+
++ Under the "Amplify Hosting" header, click on "Get Started".
+
+### Step 3: Select Repository
+
++ On the "Get started with Amplify Hosting" page, select "AWS CodeCommit" and click on "Continue".
++ If you used GitHub, you'll need to authorize AWS Amplify to access your GitHub account.
+
+### Step 4: Add Repository Branch
+
++ On the "Add repository branch" step, select "wildrydes-site" from the "Select a repository" dropdown.
++ In the "Branch" dropdown, select "master" and click on "Next".
+
+### Step 5: Configure Build Settings
+
++ On the "Build settings" page, leave all the defaults as they are.
++ Select the option to "Allow AWS Amplify to automatically deploy all files hosted in your project root directory".
++ Click on "Next".
+
+### Step 6: Review and Deploy
+
++ On the "Review" page, click on "Save and deploy".
+
+### Step 7: Wait for Deployment
+
++ The process takes a couple of minutes for Amplify Console to create the necessary resources and deploy your code.
+
+### Step 8: Launch Your Website
+
++ Once completed, click on the site image or the link underneath the thumbnail to launch your Wild Rydes site.
++ If you select the link for "master", you'll see the build and deployment details related to your branch.
+
+<img width="1360" alt="amplify-deploy-status" src="https://github.com/atharva5683/Serverless-Web-Application/assets/160429511/6604e8fe-c212-4840-8ecb-bf2675575617">
+![wildrydes-homepage](https://github.com/atharva5683/Serverless-Web-Application/assets/160429511/e93d5273-8d51-4e3f-8a6d-b4cfc37e43ea)
